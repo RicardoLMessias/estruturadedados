@@ -11,11 +11,6 @@ public class Aluno {
         return nome;
     }
 
-//    public void setNome(String nome) {
-//        this.nome = nome;
-//    }
-
-
     @Override
     public boolean equals(Object obj) {
 
