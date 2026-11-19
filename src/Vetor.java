@@ -76,6 +76,6 @@ public class Vetor {
 
     public String toString (){
 //        facilitara a impressão
-        return Arrays.toString(alunos);
+        return Arrays.toString(Arrays.copyOf(alunos, totalDeAlunos));
     }
 }
